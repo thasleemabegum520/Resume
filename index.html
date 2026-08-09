@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Your Name</h1>
+        <p>Software Developer | Designer | Problem Solver</p>
+        <div class="contact-links">
+            <a href="mailto:email@example.com">Email</a> • 
+            <a href="https://linkedin.com/in/yourprofile">LinkedIn</a> • 
+            <a href="https://github.com/yourusername">GitHub</a>
+        </div>
+    </header>
+
+    <!-- Skills Section: Outside the Tabs -->
+    <section id="skills" class="skills-container">
+        <h2>Technical Skills</h2>
+        <div class="skills-list">
+            <span class="skill-tag">HTML/CSS</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">React</span>
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">Git/GitHub</span>
+            <span class="skill-tag">SQL</span>
+        </div>
+    </section>
+
+    <!-- Tabbed Content Section -->
+    <main class="tabs-container">
+        <nav class="tab-buttons">
+            <button class="tab-btn active" onclick="openTab(event, 'experience')">Experience</button>
+            <button class="tab-btn" onclick="openTab(event, 'education')">Education</button>
+            <button class="tab-btn" onclick="openTab(event, 'projects')">Projects</button>
+            <button class="tab-btn" onclick="openTab(event, 'strengths')">Strengths</button>
+        </nav>
+
+        <div id="experience" class="tab-content active">
+            <h3>Work Experience</h3>
+            <div class="entry">
+                <h4>Junior Web Developer @ TechCorp</h4>
+                <p><em>Jan 2023 - Present</em></p>
+                <ul>
+                    <li>Developed responsive front-end components using React.</li>
+                    <li>Collaborated with design teams to improve UI/UX flow.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="education" class="tab-content">
+            <h3>Education</h3>
+            <div class="entry">
+                <h4>B.S. in Computer Science</h4>
+                <p>University Name | Graduated 2022</p>
+            </div>
+        </div>
+
+        <div id="projects" class="tab-content">
+            <h3>Projects</h3>
+            <div class="entry">
+                <h4>E-commerce Site</h4>
+                <p>A full-stack shopify alternative built with Node.js and MongoDB.</p>
+                <a href="#">View Code</a>
+            </div>
+        </div>
+
+        <div id="strengths" class="tab-content">
+            <h3>Key Strengths</h3>
+            <ul>
+                <li><strong>Communication:</strong> Expert at translating technical jargon for clients.</li>
+                <li><strong>Adaptability:</strong> Quickly learn and implement new frameworks.</li>
+                <li><strong>Leadership:</strong> Mentored 3 junior developers during internship.</li>
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your Name. Built with HTML, CSS, and JS.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
