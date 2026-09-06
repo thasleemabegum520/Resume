@@ -1,17 +1,22 @@
+/**
+ * Handles the tab switching logic
+ * @param {Event} evt - The click event
+ * @param {string} tabName - The ID of the tab to be displayed
+ */
 function openTab(evt, tabName) {
-    // Hide all tab content
-    let content = document.getElementsByClassName("tab-content");
-    for (let i = 0; i < content.length; i++) {
-        content[i].classList.remove("active");
+    // 1. Get all elements with class="tab-panel" and hide them
+    const tabPanels = document.getElementsByClassName("tab-panel");
+    for (let i = 0; i < tabPanels.length; i++) {
+        tabPanels[i].classList.remove("active");
     }
 
-    // Remove active class from all buttons
-    let buttons = document.getElementsByClassName("tab-btn");
-    for (let i = 0; i < buttons.length; i++) {
-        buttons[i].classList.remove("active");
+    // 2. Get all elements with class="tab-btn" and remove the class "active"
+    const tabButtons = document.getElementsByClassName("tab-btn");
+    for (let i = 0; i < tabButtons.length; i++) {
+        tabButtons[i].classList.remove("active");
     }
 
-    // Show selected tab and add active class to button
+    // 3. Show the current tab, and add an "active" class to the button that opened the tab
     document.getElementById(tabName).classList.add("active");
     evt.currentTarget.classList.add("active");
 }
