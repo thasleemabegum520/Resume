@@ -3,98 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SHAIK THASLEEMA BEGUM | Resume</title>
+    <title>Professional Resume | Your Name</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Shaik Thasleema begum</h1>
-        <p>QA Manual/Automation Tester</p>
-        <div class="contact-links">
-            <a href="mailto:thasleema.begum520@gmail.com">Email</a> • 
-            <a href="www.linkedin.com/in/thasleema-shaik-49abb5419">LinkedIn</a> • 
-            <a href="https://github.com/thasleemabegum520/software-testing-portfolio">GitHub Portfolio</a>
-        </div>
-    </header>
 
-    <!-- Skills Section: Outside the Tabs -->
-    <section id="skills" class="skills-container">
-        <h2>Technical Skills</h2>
-        <div class="skills-list">
-            <span class="skill-tag">Manual Testing</span>
-            <span class="skill-tag">Test Case Designing</span>
-            <span class="skill-tag">Bug Reporting</span>
-            <span class="skill-tag">API Testing with POSTMAN</span>
-            <span class="skill-tag">Python</span>
-            <span class="skill-tag">SQL</span>
-            <span class="skill-tag">Git/GitHub</span>
-            <span class="skill-tag">Selenium with Python</span>
-            
-            
-        </div>
-    </section>
-
-    <!-- Tabbed Content Section -->
-    <main class="tabs-container">
-        <nav class="tab-buttons">
-            <button class="tab-btn active" onclick="openTab(event, 'experience')">Experience</button>
-            <button class="tab-btn" onclick="openTab(event, 'education')">Education</button>
-            <button class="tab-btn" onclick="openTab(event, 'projects')">Projects</button>
-            <button class="tab-btn" onclick="openTab(event, 'strengths')">Strengths</button>
-        </nav>
-
-        <div id="experience" class="tab-content active">
-            <h3>Work Experience</h3>
-            <div class="entry">
-                <h4>Software Tester Intern @ Pandora Softwares</h4>
-                <p><em>Aug 2026 - Present</em></p>
-                <ul>
-                    <li>Perform functional, exploratory, and regression testing of web applications.</li>
-                    <li>Create and execute test cases based on application requirements and expected behavior.</li>
-                    <li>Identify, reproduce, and document bugs with clear steps, expected and actual results, severity, and priority.</li>
-                    <li>Test different user roles and application workflows to verify role-based access and functionality.</li>
-                    <li>Perform UI, data, and authorization testing across application modules.</li>
-                    <li>Validate application data using Supabase Table Editor and Authentication.</li>
-                    <li>Collaborate with developers and project leads to clarify requirements, report defects, and verify fixes.</li>
-                </ul>
-           
-            
+    <div class="resume-container">
+        <header>
+            <h1>ALEX RIVERA</h1>
+            <div class="contact-links">
+                <a href="mailto:alex.rivera@email.com"><i class="fas fa-envelope"></i> mail</a>
+                <a href="https://linkedin.com/in/username" target="_blank"><i class="fab fa-linkedin"></i> linkedin</a>
+                <a href="https://github.com/username" target="_blank"><i class="fab fa-github"></i> github</a>
             </div>
-        </div>
+        </header>
 
-        <div id="education" class="tab-content">
-            <h3>Education</h3>
-            <div class="entry">
-                <h4>B.Tech in Computer Science and Engineering</h4>
-                <p>JNTUA College of Engineering Pulivendula | Graduated 2014</p>
-                <h4>Master of Arts in Psychology</h4>
-                <p>IGNOU | Completed 2021</p>
-            </div>
-        </div>
+        <main class="main-content">
+            <!-- Left Div: Interactive Tabs -->
+            <section class="left-div">
+                <nav class="tab-nav">
+                    <button class="tab-btn active" onclick="openTab(event, 'exp')">Experience</button>
+                    <button class="tab-btn" onclick="openTab(event, 'edu')">Education</button>
+                    <button class="tab-btn" onclick="openTab(event, 'proj')">Projects</button>
+                    <button class="tab-btn" onclick="openTab(event, 'str')">Strengths</button>
+                </nav>
 
-        <div id="projects" class="tab-content">
-            <h3>Projects</h3>
-            <div class="entry">
-                <h4>Demoblaze E-commerce Website – Manual Testing</h4>
-                <p>Designed and executed functional and usability test cases for registration, login, product categories, cart and checkout workflows. Identified and documented defects with steps to reproduce, expected and actual results, severity and priority.</p>
-                <a href="https://github.com/thasleemabegum520/software-testing-portfolio.git">Link to GitHub Portfolio</a>
-            </div>
-        </div>
+                <div id="exp" class="tab-panel active">
+                    <div class="content-item">
+                        <h3>Senior Frontend Developer</h3>
+                        <span>TechCorp Solutions | 2021 - Present</span>
+                        <p>Led a team of 5 developers to rebuild the core customer dashboard, resulting in a 40% increase in user engagement.</p>
+                    </div>
+                    <div class="content-item">
+                        <h3>Web Developer</h3>
+                        <span>Creative Digital | 2018 - 2021</span>
+                        <p>Designed and maintained responsive e-commerce websites for high-profile global clients.</p>
+                    </div>
+                </div>
 
-        <div id="strengths" class="tab-content">
-            <h3>Key Strengths</h3>
-            <ul>
-                <li><strong>Communication:</strong> Expert at translating technical jargon for clients.</li>
-                <li><strong>Adaptability:</strong> Quickly learn and implement new frameworks.</li>
-                <li><strong>Leadership:</strong> Mentored 3 junior developers during internship.</li>
-            </ul>
-        </div>
-    </main>
+                <div id="edu" class="tab-panel">
+                    <div class="content-item">
+                        <h3>B.S. in Computer Science</h3>
+                        <span>University of Technology | 2014 - 2018</span>
+                        <p>Focus on Software Engineering and AI. Graduated with Honors (GPA 3.9/4.0).</p>
+                    </div>
+                </div>
 
-    <footer>
-        <p>&copy; 2024 Your Name. Built with HTML, CSS, and JS.</p>
-    </footer>
+                <div id="proj" class="tab-panel">
+                    <div class="content-item">
+                        <h3>AI Resume Parser</h3>
+                        <span>Python • OpenAI • React</span>
+                        <p>A web application that extracts structured data from PDF resumes with high accuracy using LLMs.</p>
+                    </div>
+                </div>
 
+                <div id="str" class="tab-panel">
+                    <div class="content-item">
+                        <h3>Strategic Leadership</h3>
+                        <p>Proven ability to manage cross-functional teams and deliver projects under tight deadlines.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Right Div: Technical Skills -->
+            <aside class="right-div">
+                <h2 class="section-title">Technical Skills</h2>
+                
+                <div class="skill-category">
+                    <h4>Languages</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">SQL</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h4>Frameworks</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">React.js</span>
+                        <span class="skill-tag">Next.js</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Tailwind</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h4>Infrastructure</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">CI/CD</span>
+                    </div>
+                </div>
+            </aside>
+        </main>
+    </div>
+
+    <!-- Custom JavaScript -->
     <script src="script.js"></script>
 </body>
 </html>
