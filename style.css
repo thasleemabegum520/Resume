@@ -129,14 +129,14 @@ header h1 {
 
 /* 2. THE SUB-HEADINGS (Languages, Tools, etc.) */
 /* Make these smaller, softer in color, and less "loud" */
-.skill-category h4 {
-    font-size: 0.75rem; /* Noticeably smaller than the main title */
-    color: var(--text-sub); /* Greyer/Softer color */
-    margin-bottom: 10px;
+.skill-group h4 {
+    font-size: 0.75rem;
+    color: var(--text-sub);
+    margin-bottom: 12px; /* Space between title and tags */
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 600;
-    opacity: 0.8; /* Makes it look like a secondary element */
+    display: block; /* Ensures it stays on its own line */
 }
 
 .section-title {
@@ -152,25 +152,23 @@ header h1 {
 }
 
 .skill-category {
-  display: flex;          /* Enables flexbox layout */
-  flex-wrap: wrap;       /* Allows tags to drop to the next line */
-  gap: 10px;             /* Adds even spacing between tags (horizontal and vertical) */
-  padding: 10px 0;       /* Optional: adds space above/below the group */
+    display: flex;          /* Enables flexbox */
+    flex-wrap: wrap;       /* CRITICAL: Allows tags to wrap to next line instead of overlapping */
+    gap: 8px 10px;         /* Vertical gap: 8px, Horizontal gap: 10px */
+    width: 100%;
 }
-
 .skill-tag {
     background: white;
-    padding: 5px 10px;
-    border-radius: 5px;
+    padding: 6px 12px;
+    border-radius: 6px;
     font-size: 0.8rem;
     font-weight: 600;
     color: var(--accent);
-    border: 1px solid rgba(108, 92, 231, 0.2); /* Thin border for classiness */
+    border: 1px solid rgba(108, 92, 231, 0.15);
     box-shadow: 0 2px 4px rgba(0,0,0,0.03);
-     display: inline-block;
-  margin-bottom: 8px;    /* Forces space below each tag */
-  margin-right: 8px;     /* Forces space to the right of each tag */
-  white-space: nowrap;
+    white-space: nowrap;   /* Prevents a single tag like "Manual Testing" from breaking in half */
+    display: inline-flex;
+    align-items: center;
 }
 
 .content-item { margin-bottom: 25px; }
