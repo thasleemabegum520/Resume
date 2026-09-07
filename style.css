@@ -151,7 +151,7 @@ header h1 {
     padding-bottom: 5px;
 }
 
-.skills-container {
+.skill-category {
   display: flex;          /* Enables flexbox layout */
   flex-wrap: wrap;       /* Allows tags to drop to the next line */
   gap: 10px;             /* Adds even spacing between tags (horizontal and vertical) */
@@ -167,6 +167,10 @@ header h1 {
     color: var(--accent);
     border: 1px solid rgba(108, 92, 231, 0.2); /* Thin border for classiness */
     box-shadow: 0 2px 4px rgba(0,0,0,0.03);
+     display: inline-block;
+  margin-bottom: 8px;    /* Forces space below each tag */
+  margin-right: 8px;     /* Forces space to the right of each tag */
+  white-space: nowrap;
 }
 
 .content-item { margin-bottom: 25px; }
