@@ -151,6 +151,13 @@ header h1 {
     padding-bottom: 5px;
 }
 
+.skills-container {
+  display: flex;          /* Enables flexbox layout */
+  flex-wrap: wrap;       /* Allows tags to drop to the next line */
+  gap: 10px;             /* Adds even spacing between tags (horizontal and vertical) */
+  padding: 10px 0;       /* Optional: adds space above/below the group */
+}
+
 .skill-tag {
     background: white;
     padding: 5px 10px;
