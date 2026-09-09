@@ -77,7 +77,7 @@ h2 { margin-bottom: 0; font-size: clamp(1.9rem, 4vw, 2.6rem); line-height: 1.1; 
 .hero-photo-wrap { display: grid; place-items: center; }
 .profile-pic { width: 180px; height: 180px; object-fit: cover; border-radius: 50%; border: 7px solid #fff; box-shadow: var(--shadow); }
 
-.section { padding: 88px 0; }
+.section { padding: 60px 0; }
 .section-alt { background: var(--surface-alt); border-block: 1px solid var(--line); }
 .section-heading { margin-bottom: 34px; }
 .card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); }
@@ -137,8 +137,8 @@ h2 { margin-bottom: 0; font-size: clamp(1.9rem, 4vw, 2.6rem); line-height: 1.1; 
   .container, .narrow { width: min(100% - 28px, var(--max)); }
   .site-nav { gap: 15px; }
   .site-nav a { font-size: .78rem; }
-  .hero { padding: 62px 0; }
-  .section { padding: 62px 0; }
+  .hero { padding: 48px 0; }
+  .section { padding: 48px 0; }
   .skills-grid { grid-template-columns: 1fr; }
   .item-heading, .education-item, .contact-inner, .footer-inner { flex-direction: column; align-items: flex-start; }
   .item-heading time, .education-meta { align-items: flex-start; }
