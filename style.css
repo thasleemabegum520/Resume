@@ -49,7 +49,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .site-nav a { color: var(--muted); text-decoration: none; font-size: .88rem; font-weight: 600; white-space: nowrap; }
 .site-nav a:hover, .site-nav a:focus-visible { color: var(--accent); }
 
-.hero { padding: 92px 0 82px; background: radial-gradient(circle at 85% 15%, rgba(79,70,229,.12), transparent 34%), var(--bg); }
+.hero { padding:  65px 0 60px; background: radial-gradient(circle at 85% 15%, rgba(79,70,229,.12), transparent 34%), var(--bg); }
 .hero-grid { display: grid; grid-template-columns: 1fr 220px; align-items: center; gap: 70px; }
 .eyebrow { margin: 0 0 10px; color: var(--accent); font-size: .76rem; font-weight: 800; letter-spacing: .16em; }
 h1, h2, h3, p { margin-top: 0; }
