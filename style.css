@@ -27,7 +27,7 @@ body {
 
 .profile-pic {
     align:left;
-    width: 9px;
+    width: 90px;
     height: 95px;
     object-fit: cover;
     display:block;
