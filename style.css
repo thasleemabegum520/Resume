@@ -27,10 +27,10 @@ body {
 
 .profile-pic {
     align:left;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     object-fit: cover;
-    display:block;
+    
     border-radius: 50%;
 }
 .resume-container {
