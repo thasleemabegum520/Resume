@@ -27,7 +27,7 @@ body {
 
 .profile-pic{
     width:20% ;
-    height:40%;
+    height: auto;
 }
 .resume-container {
     width: 100%;
