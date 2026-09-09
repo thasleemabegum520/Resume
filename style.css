@@ -25,9 +25,11 @@ body {
     padding: 20px;
 }
 
-.profile-pic{
-    width: 10% ;
-    height: 20%;
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
 }
 .resume-container {
     width: 100%;
