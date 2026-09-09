@@ -1,192 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
-    <title>Professional Resume | Shaik Thasleema Begum</title>    
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio resume of Shaik Thasleema Begum — Software Tester specializing in manual testing, Selenium automation, REST API testing and SQL.">
+  <meta name="theme-color" content="#0f172a">
+  <meta property="og:title" content="Shaik Thasleema Begum | Software Tester">
+  <meta property="og:description" content="Software Tester portfolio featuring QA experience, automation, API testing and testing projects.">
+  <title>Shaik Thasleema Begum | Software Tester</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
 
-    <div class="resume-container">
-        <header>
-            <a align="left">
-    <img   class="profile-pic" src="https://github.com/thasleemabegum520/Resume/releases/download/v1.0.0/Photo.Thasleema.1.jpeg" alt="Example Image">
-</a>
-            <h1>SHAIK THASLEEMA BEGUM</h1>
-            <div class="contact-links">
-                <a href="mailto:thasleema.begum520@gmail.com"><i class="fas fa-envelope"></i> mail</a>
-                <a href="www.linkedin.com/in/thasleema-shaik-49abb5419" target="_blank"><i class="fab fa-linkedin"></i> linkedin</a>
-                <a href="https://github.com/thasleemabegum520/" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-            </div>
-        </header>
-
-        <main class="main-content">
-            <!-- Left Div: Vertical Tab Section -->
-            <section class="left-div">
-                <div class="vertical-tab-wrapper">
-                    <nav class="tab-nav">
-                        <button class="tab-btn active" onclick="openTab(event, 'exp')">Experience</button>
-                        <button class="tab-btn" onclick="openTab(event, 'edu')">Education</button>
-                        <button class="tab-btn" onclick="openTab(event, 'proj')">Projects</button>
-                        <button class="tab-btn" onclick="openTab(event, 'str')">Strengths</button>
-                    </nav>
-
-                    <div class="tab-content">
-                        <div id="exp" class="tab-panel active">
-                            <div class="content-item">
-                                <h3>Software Tester Intern</h3>
-                                <span>Pandora Softwares | Aug-2026 - Present</span>
-                                <p>
-            <li>Perform functional, exploratory, and regression testing of web applications.</li>
-            <li>Create and execute test cases based on application requirements and expected behavior.</li>
-            <li>Identify, reproduce, and document bugs with clear steps, expected and actual results, severity, and priority.</li>
-            <li>Test different user roles and application workflows to verify role-based access and functionality.</li>
-            <li>Perform UI, data, and authorization testing across application modules.</li>
-            <li>Validate application data using Supabase Table Editor and Authentication.</li>
-            <li>Collaborate with developers and project leads to clarify requirements, report defects, and verify fixes.</li>
-                                </p>
-                            </div>
-                            
-                        </div>
-
-                        <div id="edu" class="tab-panel">
-                            <div class="content-item">
-                                <h3>B.Tech in Computer Science and Engineering</h3>
-                                <span>JNTUA College Of Engineering Pulivendula | 2010 - 2014</span>
-                                <p>Focus on Programming ,Database Management,Software Development,Software Testing. (65.79%)</p>
-                            </div>
-                                                
-                            <div class="content-item">
-                                <h3>M.A in Psychology</h3>
-                                <span>IGNOU | 2019 - 2021</span>
-                                <p>Focus on Behavioural theories, Therapies, Diagnostics (67.5%)</p>
-                            </div>
-                        </div>
-
-                        <div id="proj" class="tab-panel">
-                            <div class="content-item">
-                                <h3>1. Dream Portal – Selenium Automation</h3>
-                                <span>Python · Selenium WebDriver · PyTest · Page Object Model</span>
-                                <p>Automated UI testing of the Dream Portal application using Selenium WebDriver with Python and PyTest. Implemented the Page Object Model to maintain reusable page classes and test methods.</p>
-                                <h4>What I tested</h4>
-                                <ul>
-                                    
-                                    <li><p>Loading animation and page elements</p></li>
-                                    <li><p>Dream Diary and Dream Total pages</p></li>
-                                    <li><p>Dream count validation</p></li>
-                                    <li><p>Good/Bad dream type validation</p></li>
-                                    <li><p>Table data validation</p></li>
-                                   <li><p>Recurring dream validation</p></li>
-                                  <li> <p>Dream statistics validation</p></li>
-                                </ul>
-                                <h4>Skills demonstrated</h4>
-                                <p>UI Automation · Test Automation · PyTest · Selenium WebDriver · POM · Assertions · Explicit Waits</p>
-
-                            </div>
-                            <div class="content-item">
-                                <h3>2. SauceDemo – Manual QA Testing</h3>
-                                <span>Manual Testing · Test Case Design · Bug Reporting · Functional Testing</span>
-                                <h4>Description</h4>
-                                <p>Performed functional and exploratory testing of the SauceDemo e-commerce application. Designed and executed test cases to validate core application functionality and identified and documented defects.</p>
-                                <h4>What I tested</h4>
-                                <ul>
-                                    <li><p>Login functionality</p></li>
-                                    <li><p>Product listing and product details</p></li>
-                                    <li><p>Add/remove products from cart</p></li>
-                                    <li><p>Cart functionality</p></li>
-                                    <li><p>Checkout workflow</p></li>
-                                    <li><p>Input validation</p></li>
-                                    <li><p>Error handling</p></li>
-                                </ul>
-                                <h4>Skills demonstrated</h4>
-                                <p>Manual Testing · Functional Testing · Exploratory Testing · Test Case Design · Bug Reporting · Defect Identification</p>
-
-                                                           
-                            </div>
-                            <div class="content-item">
-                                <h3>REST API Testing – Postman</h3>
-                                <p>Tested REST APIs using Postman to validate responses,status codes, response data, and API behavior.
-                                </p>
-                                <p><strong>Tools:</strong> Postman, REST API, JSON</p>
-                                <ul>
-                                    <li>Created and executed API requests for CRUD rations.</li>
-                                    <li>Validated HTTP status codes and response </li>
-                                    <li>Used collections, environment variables, and API chaining.</li>
-                                </ul>
-                                <a href="https://github.com/thasleemabegum520/software-testing-portfolio.git" target="_blank">
-                                    View Project on GitHub
-                                </a>
-                            </div>
-                        </div>
-
-                        <div id="str" class="tab-panel">
-                            <div class="content-item">
-                                <h3>Strategic Leadership</h3>
-                                <p>Proven ability to manage cross-functional teams and deliver projects under tight deadlines.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Right Div: Technical Skills -->
-            <aside class="right-div">
-                <h2 class="section-title"><i class="fa-solid fa-microchip"></i>TECHNICAL SKILLS</h2>
-                <div class="skill-category">
-                    <h4><i class="fa-solid fa-terminal"></i>Languages</h4>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Python</span>
-                        <span class="skill-tag">Java</span>
-                        <span class="skill-tag">SQL</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h4><i class="fa-solid fa-cubes"></i> Testing</h4>
-                    
-                    <div class="skill-tags">
-                        <span class="skill-tag">Manual Testing</span>
-                        <span class="skill-tag">Functional Testing</span>         
-                        <span class="skill-tag">Regression Testing</span>                        
-                        <span class="skill-tag">Test Case Design</span>
-                        <span class="skill-tag">Bug Tracking</span>
-                        <span class="skill-tag">Defect Reporting</span>
-                        
-                    </div>
-                    
-                </div>
-                
-                <div class="skill-category">
-                    <h4>Automation</h4>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Selenium WebDriver</span>
-                        <span class="skill-tag">PyTest</span>
-                        <span class="skill-tag">Page Object Model (POM)</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h4>API and Database</h4>
-                    <div class="skill-tags">
-                        <span class="skill-tag">POSTMAN</span>
-                        <span class="skill-tag">REST API</span>
-                        <span class="skill-tag">MySQL</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h4>Tools</h4>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Jira</span>
-                        <span class="skill-tag">Git</span>
-                        <span class="skill-tag">GitHub</span>                  
-                    </div>
-                </div>
-                 
-            </aside>
-        </main>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Shaik Thasleema Begum home">STB</a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </div>
+  </header>
 
-    <script src="script.js"></script>
+  <main id="main-content">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">SOFTWARE TESTER · QA</p>
+          <h1 id="hero-title">Shaik Thasleema Begum</h1>
+          <p class="hero-role">Software Tester | Manual Testing | Selenium | API Testing</p>
+          <p class="hero-summary">
+            Software Tester focused on functional, exploratory and regression testing, defect reporting,
+            Selenium automation with Python, REST API testing with Postman, and SQL-based data validation.
+          </p>
+          <div class="hero-actions" aria-label="Profile links">
+            <a class="button primary" href="mailto:thasleema.begum520@gmail.com">Email Me</a>
+            <a class="button secondary" href="https://www.linkedin.com/in/thasleema-shaik-49abb5419" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a class="button secondary" href="https://github.com/thasleemabegum520" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+        </div>
+        <div class="hero-photo-wrap">
+          <img class="profile-pic" src="https://github.com/thasleemabegum520/Resume/releases/download/v1.0.0/Photo.Thasleema.1.jpeg" alt="Portrait of Shaik Thasleema Begum" width="180" height="180" fetchpriority="high">
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="experience" aria-labelledby="experience-title">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">CAREER</p>
+          <h2 id="experience-title">Experience</h2>
+        </div>
+        <article class="card timeline-item">
+          <div class="item-heading">
+            <div>
+              <h3>Software Tester Intern</h3>
+              <p class="company">Pandora Softwares</p>
+            </div>
+            <time datetime="2026-08">Aug 2026 – Present</time>
+          </div>
+          <ul class="clean-list">
+            <li>Perform functional, exploratory and regression testing of web applications.</li>
+            <li>Create and execute test cases based on requirements and expected behavior.</li>
+            <li>Identify, reproduce and document defects with clear steps, expected and actual results, severity and priority.</li>
+            <li>Test user roles and workflows to verify role-based access and application functionality.</li>
+            <li>Perform UI, data and authorization testing across application modules.</li>
+            <li>Validate application data using Supabase Table Editor and Authentication.</li>
+            <li>Collaborate with developers and project leads to clarify requirements, report defects and verify fixes.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">TOOLKIT</p>
+          <h2 id="skills-title">Technical Skills</h2>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card"><h3>Testing</h3><div class="tags"><span>Manual Testing</span><span>Functional Testing</span><span>Exploratory Testing</span><span>Regression Testing</span><span>Test Case Design</span><span>Bug Tracking</span><span>Defect Reporting</span></div></article>
+          <article class="skill-card"><h3>Automation</h3><div class="tags"><span>Selenium WebDriver</span><span>Python</span><span>PyTest</span><span>Page Object Model</span><span>Explicit Waits</span></div></article>
+          <article class="skill-card"><h3>API &amp; Database</h3><div class="tags"><span>Postman</span><span>REST API</span><span>JSON</span><span>MySQL</span><span>SQL</span></div></article>
+          <article class="skill-card"><h3>Tools</h3><div class="tags"><span>Jira</span><span>Git</span><span>GitHub</span><span>Supabase</span></div></article>
+          <article class="skill-card"><h3>Additional</h3><div class="tags"><span>Java</span><span>SDLC</span><span>STLC</span><span>Smoke Testing</span><span>Sanity Testing</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">QA PORTFOLIO</p>
+          <h2 id="projects-title">Selected Projects</h2>
+        </div>
+        <div class="projects-grid">
+          <article class="card project-card">
+            <div class="project-top"><span class="project-number">01</span><span class="project-type">Automation</span></div>
+            <h3>Dream Portal – Selenium Automation</h3>
+            <p>Automated UI testing using Selenium WebDriver with Python and PyTest, following the Page Object Model for reusable page classes and maintainable test methods.</p>
+            <ul class="compact-list">
+              <li>Dream Diary and Dream Total pages</li><li>Dream count and type validation</li><li>Table data and recurring dream validation</li><li>Dream statistics and loading behavior</li>
+            </ul>
+            <p class="tech-line"><strong>Stack:</strong> Python · Selenium WebDriver · PyTest · POM</p>
+          </article>
+
+          <article class="card project-card">
+            <div class="project-top"><span class="project-number">02</span><span class="project-type">Manual QA</span></div>
+            <h3>SauceDemo – Manual QA Testing</h3>
+            <p>Performed functional and exploratory testing of an e-commerce application, designing and executing test cases and documenting defects across core user workflows.</p>
+            <ul class="compact-list">
+              <li>Login and product functionality</li><li>Cart and add/remove workflows</li><li>Checkout and input validation</li><li>Error handling and defect identification</li>
+            </ul>
+            <p class="tech-line"><strong>Focus:</strong> Functional · Exploratory · Test Case Design · Bug Reporting</p>
+          </article>
+
+          <article class="card project-card">
+            <div class="project-top"><span class="project-number">03</span><span class="project-type">API Testing</span></div>
+            <h3>REST API Testing – Postman</h3>
+            <p>Tested REST APIs with Postman to validate HTTP responses, status codes, response data and API behavior.</p>
+            <ul class="compact-list">
+              <li>Created and executed CRUD API requests</li><li>Validated status codes and response data</li><li>Used collections and environment variables</li><li>Practiced API chaining and data-driven testing</li>
+            </ul>
+            <p class="tech-line"><strong>Stack:</strong> Postman · REST API · JSON</p>
+            <a class="text-link" href="https://github.com/thasleemabegum520/software-testing-portfolio" target="_blank" rel="noopener noreferrer">View portfolio on GitHub →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="education" aria-labelledby="education-title">
+      <div class="container narrow">
+        <div class="section-heading">
+          <p class="eyebrow">ACADEMICS</p>
+          <h2 id="education-title">Education</h2>
+        </div>
+        <div class="education-list">
+          <article class="education-item">
+            <div><h3>B.Tech in Computer Science and Engineering</h3><p>JNTUA College of Engineering Pulivendula</p></div>
+            <div class="education-meta"><span>2010 – 2014</span><strong>65.79%</strong></div>
+          </article>
+          <article class="education-item">
+            <div><h3>M.A. in Psychology</h3><p>IGNOU</p></div>
+            <div class="education-meta"><span>2019 – 2021</span><strong>67.5%</strong></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-inner">
+        <div>
+          <p class="eyebrow">LET'S CONNECT</p>
+          <h2 id="contact-title">Interested in working together?</h2>
+          <p>I'm open to Software Testing and QA opportunities where I can contribute to product quality and continue growing in automation and API testing.</p>
+        </div>
+        <a class="button primary" href="mailto:thasleema.begum520@gmail.com">thasleema.begum520@gmail.com</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> Shaik Thasleema Begum</span>
+      <span>Built with semantic HTML, CSS &amp; JavaScript</span>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
 </body>
 </html>
